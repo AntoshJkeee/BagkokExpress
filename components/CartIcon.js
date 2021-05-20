@@ -76,7 +76,6 @@ export default class CartIcon {
       zIndex: 1e3,
       left:
         Math.min(
-          // справа от содержимого (определяем по первому контейнеру в нашей вёрстке)
           document.querySelector(".container").getBoundingClientRect().right +
             20,
           document.documentElement.clientWidth - this.elem.offsetWidth - 10

@@ -99,7 +99,6 @@ export default class StepSlider {
 
     this.elem.classList.remove("slider_dragging");
 
-    // stick to the final value
     this.thumb.style.left = `${(this.value / this.segments) * 100}%`;
     this.progress.style.width = `${(this.value / this.segments) * 100}%`;
 

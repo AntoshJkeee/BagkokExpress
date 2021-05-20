@@ -104,7 +104,7 @@ export default class RibbonMenu {
     }
 
     let scrollRight = this.scrollRight();
-    scrollRight = scrollRight < 1 ? 0 : scrollRight; // Это нужно для ситуации, когда скролл произошел с погрешностью
+    scrollRight = scrollRight < 1 ? 0 : scrollRight;
     if (scrollRight > 0) {
       this.sub("arrow_right").classList.add("ribbon__arrow_visible");
     } else {

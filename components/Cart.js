@@ -4,7 +4,7 @@ import escapeHtml from "./../assets/lib/escape-html.js";
 import Modal from "./Modal.js";
 
 export default class Cart {
-  cartItems = []; // [product: {...}, count: N]
+  cartItems = [];
 
   constructor(cartIcon) {
     this.cartIcon = cartIcon;
