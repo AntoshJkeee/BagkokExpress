@@ -1,10 +1,10 @@
-// Classes
-import Carousel from "./classes/Carousel.js";
-import RibbonMenu from "./classes/RibbonMenu.js";
-import StepSlider from "./classes/StepSlider.js";
-import ProductsGrid from "./classes/ProductsGrid.js";
-import CartIcon from "./classes/CartIcon.js";
-import Cart from "./classes/Cart.js";
+// Components
+import Carousel from "./components/Carousel.js";
+import RibbonMenu from "./components/RibbonMenu.js";
+import StepSlider from "./components/StepSlider.js";
+import ProductsGrid from "./components/ProductsGrid.js";
+import CartIcon from "./components/CartIcon.js";
+import Cart from "./components/Cart.js";
 
 // Services
 import slides from "./services/slides.js";
