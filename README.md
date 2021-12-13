@@ -1,3 +1,7 @@
+# Hello Everyone :)
+
+![alt text](screenshots/screen1.png "main-screen")
+
 # BangkokExpress
 
 The project was creating without any frameworks or libraries, just on pure JS. 
